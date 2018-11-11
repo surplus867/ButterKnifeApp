@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.button_say_hello, R.id.button_say_goodbye})
-    public void onSayHelloClick(View view) {
+    public void onSayHelloClick(View v) {
         String name = edtName.getText().toString();
-        switch (view.getId()) {
+        switch (v.getId()) {
             case R.id.button_say_hello:
                 txtMessage.setText("Hello " + name);
                 break;
