@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ButterKnifeApp</string>
+    <string name="say_hello">say hello</string>
+    <string name="say_goodbye">say goodbye</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="message_here">Message here</string>
+</resources>
